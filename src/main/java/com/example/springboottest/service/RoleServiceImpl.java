@@ -13,7 +13,6 @@ public class RoleServiceImpl implements RoleService{
 
     // save operation
     public Role saveRole(Role role) {
-        role.setRole_name("no mandaste esto");
         return roleRepository.save(role);
     }
 
